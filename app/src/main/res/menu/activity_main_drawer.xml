@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+    >
+
+    <group
+        android:checkableBehavior="single"
+        android:enabled="true">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_aajtak"
+            android:icon="@android:drawable/star_big_on"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="@string/menu_news18"
+            android:icon="@android:drawable/star_big_on"/>
+
+        <item
+            android:id="@+id/bbcFragment"
+            android:title="@string/menu_bbc"
+            android:icon="@android:drawable/star_big_on"/>
+
+
+        <item
+            android:id="@+id/cnnFragment"
+            android:title="@string/menu_cnn"
+            android:icon="@android:drawable/star_big_on"/>
+
+        <item
+            android:id="@+id/shareMedia"
+            android:title="SportNews"
+            android:icon="@android:drawable/star_big_on"/>
+
+
+    </group>
+
+
+
+    <item android:title="@string/menu_developer">
+
+        <menu>
+            <item android:id="@+id/nav_slideshow"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="@string/menu_developer_profile"/>
+        </menu>
+
+
+    </item>
+</menu>
